@@ -1,0 +1,28 @@
+{
+  "name": "introduction-to-webpack",
+  "version": "1.0.0",
+  "description": "An introduction to webpack module bundler. A small exercise to used to get familar with the running webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --host 0.0.0.0 --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotonyguerra/webpack-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jotonyguerra/webpack-intro/issues"
+  },
+  "homepage": "https://github.com/jotonyguerra/webpack-intro#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.6.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}

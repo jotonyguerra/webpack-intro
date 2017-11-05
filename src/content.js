@@ -1,1 +1,1 @@
-module.export = "new text";
+module.exports = "random";
